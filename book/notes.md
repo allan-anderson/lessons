@@ -12,7 +12,7 @@ it. The temp is initialized to 0 each time around the loop and is not altered un
 the case gets to it. So I can just assign the result.
 *In most cases a method should be on the object whose data it uses e.g. amount for uses data from Rental not Customer.
 * If a variable is set and then not modified like this_amount, then you can use Replace Temp With Query to eliminate it. This has performance implications because the method is now being called twice, but the author says first go for clarity, and then look at performance.
-
+* Replace temp with query is good because queries are available to all the methods in the class.
 
 #### New Terms:
 * _Move Method_ - When you take a method in an inappropriate model, and move it to a new better home.
