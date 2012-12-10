@@ -17,7 +17,7 @@ the case gets to it. So I can just assign the result.
 #### New Terms:
 * _Move Method_ - When you take a method in an inappropriate model, and move it to a new better home.
 * _Replace Temp With Query_ - When you eliminate a temporary variable by using the thing that sets it initially in the places it was called/referenced.
-
+* _Collection Closure_ - Some languages support closures and collections, they can be used to eliminate each loops Object.elements.each {|e|} is the preferred single line syntax of Object.elements.each do |e| //block end. In rails Object.elements.collect, inject, select...etc are examples of Collection closures.
 
 
 
