@@ -15,7 +15,7 @@ class Customer
     result = "Rental Record for #{@name}\n"
 
     @rentals.each do |element|
-
+      this_amount = amount_for(element)
       # add frequent renter points
       frequent_renter_points += 1
 
